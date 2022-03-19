@@ -1,0 +1,86 @@
+.login-form {
+    background-color: #fafaf4;
+    padding: 30px;
+    box-shadow: 1px 1px 10px 5px gray;
+    border-radius: 25px;
+}
+
+
+.logo {
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 5px 3px 5px 3px grey ;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-color: #747463;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    
+}
+    
+.email, .password {
+    margin-bottom: 22px;
+    border-radius: 22px;
+    box-shadow: inset 5px 5px 10px rgb(197, 196, 196);
+    background-color: #fafaf4;
+
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    box-shadow: 5px 3px 5px 3px rgb(197, 196, 196);
+}
+
+button:hover {
+    background-color: rgb(204, 202, 202);
+}
+.link {
+    text-align: center;
+
+}
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
